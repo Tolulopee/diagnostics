@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;0,900;1,500;1,800&display=swap');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:'Nunito', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+}
+
+.header-part{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:15px;
+  
+}
+.header-part img{
+   width:140px;
+  height:60px;
+   border:1px solid red;
+  border-radius:25px; 
+  margin-left:60px;
+}
+
+.header-img{
+  width:140px;
+  height:60px;
+   border:1px solid red;
+  border-radius:25px; 
+  margin-left:60px;
+} 
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color:#f9a4a4;
+}
+button{
+  border:none;
+  background-color:#f9a4a4;
+}
+button:hover{
+  color:#eee7e7;
+  font-size:17px;
+}
+
+.consult-btn{
+  border:1px solid red;
+  margin-right:20px;
+  padding:7px;
+  border-radius:10px;
+}
+
+.c
+
+.dropbtn{
+  background-color:#f9a4a4;
+  width: 120px;
+  
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  rgba(215, 136, 109, 0.6);
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0 0 white;
+}
+.dropdown-content a {
+  color:balck;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;  
+}
